@@ -1,0 +1,205 @@
+
+
+@media (max-width: 1190px) {
+   
+
+    .homecontent{
+        height: 100vh;
+    }
+    .homecontent h4{
+    font-size: 58px;
+   }
+   .sec-about{
+    height: 650px;
+   }
+   .cert-box img{
+    max-width: 500px;
+   }
+   .certificate-section{
+    height: 500px;
+   }
+   .cert-text h3{
+    font-size:24px;
+   }
+   .cert-text p{
+    font-size: 12 ;
+   }
+   .cert-text h4{
+    font-size: 18px;
+   }
+   .cert-text ul{
+    font-size:14px;
+   }
+   .contact{
+    height: 600px;
+   }
+    
+
+}
+
+@media (max-width:999px) {
+    
+   .projects{
+    height: 800px;
+   }
+   .sec-about{
+    width: 75%;
+    height: auto;
+   }
+   .about>h3{
+    padding-bottom: 30px;
+   }
+   .fit{
+    flex-direction: column;
+    
+   }
+   .fit .img{
+    max-width: 600px;
+    width: 90%;
+    margin: 0 auto;
+    padding: 0;
+    padding-bottom: 40px;
+    text-align: center;
+   }
+   .conten>p{
+    width: 90%;
+   }
+   .conten .list{
+    width: 100%;
+   }
+    .certificate-section{
+        height: auto;
+    }
+   .slider{
+    height: auto;
+   }
+
+   .cert-box{
+    
+    flex-direction: column;
+   }
+   .projects{
+    height: auto;
+   }
+}
+
+@media (max-width: 800px) {
+
+    nav{
+        display: none;
+    }
+    
+    .homecontent img{
+        width: 150px;
+        height: 150px;
+        margin-bottom: 30px;
+    border-radius: 100px;
+    }
+    .homecontent>p{
+    
+    padding-bottom: 15px;
+    
+}
+.homecontent h4{
+    
+    padding-bottom: 30px;
+    
+    
+}
+.homecontent .para{
+   padding-bottom: 30px;
+}
+.btn{
+    display: none;
+}
+  nav {
+    position: fixed;
+    top: 0;
+    right: -100%;
+    width: 30%;
+    height: 270px;
+    background: #2A004A;
+    display: flex;
+    justify-content: start;
+    flex-direction: column;
+    gap: 5px;
+    align-items: start;
+    padding: 50px 0 0 ;
+    padding-left: 50px;
+    transition: 0.3s ease;
+    z-index: 999;
+  }
+
+  nav.active {
+    right: 0;
+  }
+
+  .menu-btn {
+    display: block;
+  }
+
+  .close-btn {
+    position: absolute;
+    top: 25px;
+    right: 25px;
+    font-size: 26px;
+    background: none;
+    border: none;
+    color: white;
+    cursor: pointer;
+  }
+    
+}
+
+@media (max-width:620px){
+    .head{
+        display: flex;
+        position: relative;
+         align-items: center;
+  justify-content: center;
+  padding: 0 20px;
+    }
+    .head h1{
+        
+    }
+    .menu-btn {
+  position: absolute;
+  top: 15px;
+  right: 20px;
+  font-size: 28px;
+  background: none;
+  border: none;
+  color: white;
+  cursor: pointer;
+}
+.homecontent h4{
+    font-size: 48px;
+}
+.home-btn{
+    flex-direction: column;
+}
+.conten>p{
+    width: 100%;
+}
+.conten .list{
+    flex-direction: column;
+    gap: 0;
+}
+}
+@media(max-width:550px){
+    .home-btn{
+        width: 250px;
+    }
+    .iid{
+        display: none;
+    }
+}
+@media(max-width:510px){
+.homecontent h4{
+    width: 95%;
+    font-size: 30px;
+}
+.homecontent .para{
+    font-size: 14px;
+}
+}
