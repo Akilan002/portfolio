@@ -38,9 +38,10 @@ window.addEventListener("scroll", () => {
 
 function openMenu() {
   document.getElementById("navMenu").classList.add("active");
+  document.body.style.overflow = "hidden";
 }
 
 function closeMenu() {
   document.getElementById("navMenu").classList.remove("active");
+  document.body.style.overflow = "auto";
 }
-
