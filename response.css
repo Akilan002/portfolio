@@ -229,21 +229,52 @@ font-size:16px; font-weight:300;
 font-size:21px;
 }
 .homecontent h4{ font-size:30px;}
-.fit img{width:100%;}
+
 .contact .btn-sub{margin-bottom:10px;}
 .contact form .textt{ flex-direction: column; gap: 0; }
 .contact form .textt input{
     width: 100%;
 }
-
+.sec-about{
+    width: 100%;
+}
 .fit img{
-   width:300px;
-max-width:300px;
-
+    width: 300px;
+    max-width: 300px;
+    
 }
 .about-rotate{
-top:250px;
+    top: 250px;
+    left: 250px;
+}
+.conten{
+    width: 85%;
+    margin: 0 auto;
+}
+
+}   
+
+@media (max-width:377px){
+    .fit img{
+    width: 250px;
+    max-width: 250px;
+    
+}
+ .homecontent{
+       padding-top:80px;
+    }
+
+.about-rotate{
+    top: 210px;
+    left: 250px;
+ width: 75px;
+  height: 75px;
+}
 
 }
+@media (max-height:681px) {
+    .homecontent{
+       padding-top:80px;
+    }
 
 }
