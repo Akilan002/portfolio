@@ -48,5 +48,5 @@ function closeMenu() {
 
 ////// for download
 function showDownloadMsg() {
-  alert("resume download has started 📄");
+  alert("download has started 📄");
 }
