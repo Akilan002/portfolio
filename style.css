@@ -368,17 +368,23 @@ nav a:hover{
     
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
 }
-.conten .tools .logo{
+.tools .logo{
     width: 50px;
     height: 50px;
-    border: 0.1px solid #636060;
-
+    margin: 10px;
     
- 
+  
 }
-
+.tools .logo img{
+     background-size: 300px auto;
+    background-position: 0 0;
+}
+.tools .one{
+    background: url('./img/interface-icons.png') no-repeat;
+    background-position: 0 0;
+}
 
 /* cerificate */
 .certificate-section {
