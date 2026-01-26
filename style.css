@@ -95,7 +95,7 @@ nav{
     margin:15px 10px 0 35px;
     
     border: 0.1px solid #636060;
-    border-radius: 10px;
+    border-radius: 50px;
     align-items: center;
 }
 nav a{
@@ -362,28 +362,44 @@ nav a:hover{
     font-weight: 400;
     padding-bottom: 10px;
 }
-/***********pending***********/
-.conten .tools{
-    width: 50%; 
-    
+.tools{
+    width: 50%;
+    height: 55px;
     display: flex;
-    align-items: center;
     justify-content: space-between;
+    gap: 10px;
+    
 }
 .tools .logo{
-    width: 50px;
-    height: 50px;
-    margin: 10px;
-    
+    width: 45px;
+    height: 45px;
+    background: url(./img/integration-icons-sprite-2x.png);
+    background-repeat: no-repeat;
+    background-size: 1087px auto;
+    border-radius: 3px;
+    transition: transform 0.6s ease-out;
+    background-position: 10px 0px;
+
+}
+.tools .logo:hover{
+    background-color: #150027;
+    transform: translate(0px, -6px);
   
 }
-.tools .logo img{
-     background-size: 300px auto;
-    background-position: 0 0;
-}
 .tools .one{
-    background: url('./img/interface-icons.png') no-repeat;
-    background-position: 0 0;
+    background-position: -523px 0px;
+}
+.tools .two{
+    background-position: -698px 0px;
+}
+.tools .three{
+    background-position: 0px -46px;
+}
+.tools .four{
+    background-position: -654px 0px;
+}
+.tools .five{
+    background-position: -86px -88px;
 }
 
 /* cerificate */
