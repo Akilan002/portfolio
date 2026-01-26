@@ -363,7 +363,8 @@ nav a:hover{
     padding-bottom: 10px;
 }
 .tools{
-    width: 50%;
+    width: 100%;
+    max-width: 300px;
     height: 55px;
     display: flex;
     justify-content: space-between;
@@ -393,7 +394,7 @@ nav a:hover{
     background-position: -698px 0px;
 }
 .tools .three{
-    background-position: 0px -46px;
+    background-position: 1px -45px;
 }
 .tools .four{
     background-position: -654px 0px;
