@@ -214,7 +214,7 @@ nav{
 }
 
 
-@media(max-width:420px){
+@media(max-width:430px){
     .contact form .textt input,textarea::placeholder{
     font-weight: 100;
     font-size: 14px;
