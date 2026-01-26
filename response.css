@@ -230,4 +230,6 @@ font-size:21px;
 }
 .homecontent h4{ font-size:30px;}
 .fit img{width:100%;}
+.contact .btn-sub{margin-bottom:30px;}
+.contact form .textt{ flex-direction: column;}
 }
