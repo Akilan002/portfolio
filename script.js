@@ -48,5 +48,5 @@ function closeMenu() {
 
 ////// for download
 function showDownloadMsg() {
-  alert("Your resume download has started 📄");
+  alert("resume download has started 📄");
 }
