@@ -222,4 +222,10 @@ nav{
     font-size: 14px;
     letter-spacing: .1px;
 }
+.homecontent>p{
+font-size:16px; font-weight:300;
+}
+.homecontent p .akil{
+font-size:21px;
+}
 }
