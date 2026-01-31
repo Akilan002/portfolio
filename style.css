@@ -731,7 +731,7 @@ text {
 
 
 }
-.contact .btn-sub button{
+.contact button{
 
 
      padding: 15px 60px;     
@@ -746,7 +746,7 @@ text {
 
 
 }
-.contact .btn-sub button:hover{
+.contact button:hover{
     background: #2b014e;
 }
 
