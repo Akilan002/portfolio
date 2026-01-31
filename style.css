@@ -787,6 +787,10 @@ text {
   font-size: 15px;
   opacity: 0.9;
 }
+.email a{
+    text-decoration: none;
+    color: #fff;
+}
 
 .footer hr {
   border: none;
