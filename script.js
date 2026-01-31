@@ -45,3 +45,8 @@ function closeMenu() {
   document.getElementById("navMenu").classList.remove("active");
   document.body.style.overflow = "auto";
 }
+
+////// for download
+function showDownloadMsg() {
+  alert("resume downloading 📄");
+}
