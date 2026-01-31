@@ -50,3 +50,12 @@ function closeMenu() {
 function showDownloadMsg() {
   alert("resume downloading 📄");
 }
+
+///////for submit 
+fetch("https://formspree.io/f/abcdwxyz", {
+  method: "POST",
+  headers: {
+    "Accept": "application/json"
+  },
+  body: new FormData(form)
+})
