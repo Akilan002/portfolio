@@ -731,21 +731,22 @@ text {
 
 
 }
-.contact .btn-sub a{
+.contact .btn-sub button{
 
 
-     padding: 15px 20px;     
+     padding: 15px 60px;     
     border: 0.1px solid #636060;
     border-radius: 30px;
 
     text-decoration: none;
+    background: #11001F;
     color: #ffffff;
 
     letter-spacing: 1px;
 
 
 }
-.contact .btn-sub a:hover{
+.contact .btn-sub button:hover{
     background: #2b014e;
 }
 
