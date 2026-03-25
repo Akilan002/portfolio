@@ -48,7 +48,7 @@ function closeMenu() {
 
 ////// for download
 function showDownloadMsg() {
-  alert("resume downloading 📄");
+  alert("Opening resume 📄");
 }
 
 ///////for submit 
